@@ -13,6 +13,6 @@ git submodule add https://github.com/win8linux/WatchyGSR_Addon_LineWatchy.git "W
 ```
 2. Add the following include to `src/GSR.ino` in Watchy GSR:
 ```cpp
-#include "../Watchface Addons/Line/LineWatchy.h"
+#include "../Watchface Addons/Line/GSRWatchFaceLine.h"
 ```
 3. Compile!
